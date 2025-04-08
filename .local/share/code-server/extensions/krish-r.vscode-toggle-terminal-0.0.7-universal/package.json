@@ -1,0 +1,87 @@
+{
+	"name": "vscode-toggle-terminal",
+	"displayName": "Toggle Terminal",
+	"publisher": "krish-r",
+	"description": "This extension adds a terminal toggle icon (shortcut) in the status bar.",
+	"version": "0.0.7",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"icon": "images/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/krish-r/vscode-toggle-terminal"
+	},
+	"bugs": {
+		"url": "https://github.com/krish-r/vscode-toggle-terminal"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"keywords": [
+		"terminal toggle",
+		"toggle terminal",
+		"toggle",
+		"terminal"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"configuration": {
+			"title": "Terminal Toggle",
+			"properties": {
+				"vscode-toggle-terminal.alignment": {
+					"description": "Where to align the toggle button",
+					"type": "string",
+					"default": "left",
+					"enum": [
+						"left",
+						"right"
+					],
+					"enumDescriptions": [
+						"Aligns the toggle button to the left of the status bar",
+						"Aligns the toggle button to the right of the status bar"
+					]
+				},
+				"vscode-toggle-terminal.priority": {
+					"description": "Priority of the toggle button position in the status bar. (Higher values mean the toggle button would be shown more to the left.)",
+					"type": "number",
+					"default": 0
+				},
+				"vscode-toggle-terminal.listNames": {
+					"description": "Display terminal names on hover (tooltip).",
+					"type": "boolean",
+					"default": false
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"deploy": "vsce publish"
+	},
+	"devDependencies": {
+		"@types/glob": "^8.0.0",
+		"@types/mocha": "^10.0.1",
+		"@types/node": "16.x",
+		"@types/vscode": "^1.74.0",
+		"@typescript-eslint/eslint-plugin": "^5.45.0",
+		"@typescript-eslint/parser": "^5.45.0",
+		"@vscode/test-electron": "^2.2.0",
+		"@vscode/vsce": "^2.19.0",
+		"eslint": "^8.28.0",
+		"glob": "^8.0.3",
+		"mocha": "^10.1.0",
+		"typescript": "^4.9.3"
+	},
+	"__metadata": {
+		"installedTimestamp": 1744146801906,
+		"size": 24662
+	}
+}

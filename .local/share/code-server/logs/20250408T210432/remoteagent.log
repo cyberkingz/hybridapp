@@ -1,0 +1,23 @@
+2025-04-08 21:04:33.091 [info] 
+
+
+
+
+2025-04-08 21:04:33.114 [info] Extension host agent started.
+2025-04-08 21:04:33.208 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.local/share/code-server/extensions
+2025-04-08 21:04:33.236 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.local/share/code-server/extensions
+2025-04-08 21:04:35.467 [info] [10.44.252.1][dc116a2d][ManagementConnection] New connection established.
+2025-04-08 21:04:36.841 [info] [10.44.252.1][0d1d5b6b][ExtensionHostConnection] New connection established.
+2025-04-08 21:04:37.614 [info] [10.44.252.1][0d1d5b6b][ExtensionHostConnection] <3334> Launched Extension Host Process.
+2025-04-08 21:04:43.142 [info] [10.44.252.1][dc116a2d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-08 21:04:43.200 [info] [10.44.252.1][0d1d5b6b][ExtensionHostConnection] <3334> Extension Host Process exited with code: 0, signal: null.
+2025-04-08 21:11:15.203 [info] [10.44.252.1][bc3beaa1][ManagementConnection] New connection established.
+2025-04-08 21:11:16.627 [info] [10.44.252.1][d68db4f7][ExtensionHostConnection] New connection established.
+2025-04-08 21:11:16.632 [info] [10.44.252.1][d68db4f7][ExtensionHostConnection] <3735> Launched Extension Host Process.
+2025-04-08 21:13:21.026 [info] Getting Manifest... krish-r.vscode-toggle-terminal
+2025-04-08 21:13:21.466 [info] Installing extension: krish-r.vscode-toggle-terminal {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.local/share/code-server/extensions/extensions.json","external":"file:///home/ubuntu/.local/share/code-server/extensions/extensions.json","path":"/home/ubuntu/.local/share/code-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.98.2","date":"2025-03-14T19:02:47.726Z"}}
+2025-04-08 21:13:21.882 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code-server/lib/vscode/out/server-main.js
+2025-04-08 21:13:21.882 [info] Extension signature verification is not done: krish-r.vscode-toggle-terminal
+2025-04-08 21:13:21.906 [info] Extracted extension to file:///home/ubuntu/.local/share/code-server/extensions/krish-r.vscode-toggle-terminal-0.0.7-universal: krish-r.vscode-toggle-terminal
+2025-04-08 21:13:21.912 [info] Renamed to /home/ubuntu/.local/share/code-server/extensions/krish-r.vscode-toggle-terminal-0.0.7-universal
+2025-04-08 21:13:21.927 [info] Extension installed successfully: krish-r.vscode-toggle-terminal file:///home/ubuntu/.local/share/code-server/extensions/extensions.json

@@ -1,0 +1,44 @@
+[2025-04-08T15:11:55.822Z] info  code-server 4.98.2 e2c489dd00f163b1a8d959965b0c30c1a978a080
+[2025-04-08T15:11:55.837Z] info  Using user-data-dir /home/ubuntu/.local/share/code-server
+[2025-04-08T15:11:55.872Z] info  Using config file /home/ubuntu/.config/code-server/config.yaml
+[2025-04-08T15:11:55.872Z] info  HTTP server listening on http://0.0.0.0:8329/
+[2025-04-08T15:11:55.873Z] info    - Authentication is disabled
+[2025-04-08T15:11:55.874Z] info    - Not serving HTTPS
+[2025-04-08T15:11:55.874Z] info  Session server listening on /home/ubuntu/.local/share/code-server/code-server-ipc.sock
+[21:04:32] 
+
+
+
+
+[21:04:33] Extension host agent started.
+[21:04:33] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.local/share/code-server/extensions
+[21:04:33] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.local/share/code-server/extensions
+[21:04:35] [10.44.252.1][dc116a2d][ManagementConnection] New connection established.
+[21:04:36] [10.44.252.1][0d1d5b6b][ExtensionHostConnection] New connection established.
+[21:04:37] [10.44.252.1][0d1d5b6b][ExtensionHostConnection] <3334> Launched Extension Host Process.
+[21:04:43] [10.44.252.1][dc116a2d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:04:43] [10.44.252.1][0d1d5b6b][ExtensionHostConnection] <3334> Extension Host Process exited with code: 0, signal: null.
+[21:11:15] [10.44.252.1][bc3beaa1][ManagementConnection] New connection established.
+[21:11:16] [10.44.252.1][d68db4f7][ExtensionHostConnection] New connection established.
+[21:11:16] [10.44.252.1][d68db4f7][ExtensionHostConnection] <3735> Launched Extension Host Process.
+[21:13:21] Getting Manifest... krish-r.vscode-toggle-terminal
+[21:13:21] Installing extension: krish-r.vscode-toggle-terminal {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isApplicationScoped: false,
+  profileLocation: br {
+    scheme: 'file',
+    authority: '',
+    path: '/home/ubuntu/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/ubuntu/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/home/ubuntu/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.98.2', date: '2025-03-14T19:02:47.726Z' }
+}
+[21:13:21] Extension signature verification is not done: krish-r.vscode-toggle-terminal
+[21:13:21] Extracted extension to file:///home/ubuntu/.local/share/code-server/extensions/krish-r.vscode-toggle-terminal-0.0.7-universal: krish-r.vscode-toggle-terminal
+[21:13:21] Renamed to /home/ubuntu/.local/share/code-server/extensions/krish-r.vscode-toggle-terminal-0.0.7-universal
+[21:13:21] Extension installed successfully: krish-r.vscode-toggle-terminal file:///home/ubuntu/.local/share/code-server/extensions/extensions.json
