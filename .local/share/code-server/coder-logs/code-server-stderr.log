@@ -3,3 +3,4 @@ File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_
 File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
 File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
 [21:13:21] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code-server/lib/vscode/out/server-main.js
+[21:46:06] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

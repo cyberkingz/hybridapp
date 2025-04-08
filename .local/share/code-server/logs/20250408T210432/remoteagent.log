@@ -21,3 +21,4 @@
 2025-04-08 21:13:21.906 [info] Extracted extension to file:///home/ubuntu/.local/share/code-server/extensions/krish-r.vscode-toggle-terminal-0.0.7-universal: krish-r.vscode-toggle-terminal
 2025-04-08 21:13:21.912 [info] Renamed to /home/ubuntu/.local/share/code-server/extensions/krish-r.vscode-toggle-terminal-0.0.7-universal
 2025-04-08 21:13:21.927 [info] Extension installed successfully: krish-r.vscode-toggle-terminal file:///home/ubuntu/.local/share/code-server/extensions/extensions.json
+2025-04-08 21:46:06.349 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
